@@ -1,11 +1,15 @@
 # TSP - Traveling Salesman Problem Solver (Java)
 
-## Overview
+**SDK:** Oracle OpenJDK version **21.0.1**
+
+## Overview 🔍
 This Java-based project aims to solve the Traveling Salesman Problem (TSP) using a parallelized approach with multithreading and the Partially Mapped Crossover (PMX) technique. The TSP is a classic optimization problem where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city.
 
 ![TSP](./assets/tsp.jpg)
 
-## Features
+---
+
+## Features ✅
 ### 1 - Multithreading
 The solution utilizes multithreading to concurrently explore different paths in the solution space, improving the overall efficiency of the algorithm. This enables the program to explore multiple potential solutions simultaneously, leading to faster convergence towards an optimal or near-optimal solution.
 
@@ -21,6 +25,13 @@ The genetic algorithm maintains a population of potential solutions, evolving th
 ### 5 - Max Time of Execution
 To control the execution time of the algorithm, a maximum time parameter is provided. This ensures that the algorithm terminates gracefully even if an optimal solution is not found within a specified timeframe. Users can set this parameter to meet specific time constraints, making the solution adaptable to different scenarios.
 
+---
+
+## How it works? 🛠️
+...
+
+---
+
 ## Why to Open Source 🌐
 
 1. **Community Collaboration**: Open sourcing your project invites a global community of developers to contribute, share ideas, and enhance its capabilities.
@@ -33,6 +44,8 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 
 5. **Longevity**: Open source projects tend to have longer lifespans, as they are not reliant on a single entity, ensuring sustainability.
 
+---
+
 ## Installation 📥
 
 > Install TSP Repository with npm *(This will install all files, including this README.md)*
@@ -41,6 +54,13 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 >  npm install https://github.com/MiguelRolo/TSP.git
 >  cd TSP
 > ```
+
+---
+
+## Contribution
+Feel free to contribute by forking the repository and creating pull requests. Bug reports and feature requests are also welcome in the Issues section.
+
+---
 
 ## License 🪪
 
