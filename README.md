@@ -3,7 +3,7 @@
 ## Overview
 This Java-based project aims to solve the Traveling Salesman Problem (TSP) using a parallelized approach with multithreading and the Partially Mapped Crossover (PMX) technique. The TSP is a classic optimization problem where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city.
 
-![TSP](https://github.com/MiguelRolo/TSP/assets/tps.jpg?raw=true)
+![TSP](./assets/tsp.jpg)
 
 ## Features
 ### 1 - Multithreading
