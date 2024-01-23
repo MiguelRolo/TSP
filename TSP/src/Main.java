@@ -45,7 +45,7 @@ public class Main {
 
             return "start";
         } else {
-            System.out.println("> <fileName> <threadsNumber> <execTime> <populationNumber> <mutationProb> e(max: 1 (100%))");
+            System.out.println("> <fileName> <threadsNumber> <execTime> <populationNumber> <mutationProb> (max: 1 (100%))");
             return "repeat";
         }
     }
@@ -59,7 +59,7 @@ public class Main {
         System.out.println("\n--== General Informations ==--");
         System.out.println("File: " + fileName);
         System.out.println("Number of Threads: " + threadsNumber);
-        System.out.println("(MAX) Execution Time: " + execTime + " segundo(s)");
+        System.out.println("(MAX) Execution Time: " + execTime + " second(s)");
         System.out.println("Population: " + populationNumber);
         System.out.println("Mutation Probability: ( " + (mutationProb * 100) + "% )");
     }

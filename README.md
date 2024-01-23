@@ -2,8 +2,10 @@
 
 **SDK:** Oracle OpenJDK version **21.0.1**
 
+- Make sure to ⭐️ the repository to stay tuned! 
+
 ## Overview 🔍
-This Java-based project aims to solve the Traveling Salesman Problem (TSP) using a parallelized approach with multithreading and the Partially Mapped Crossover (PMX) technique. The TSP is a classic optimization problem where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city.
+This Java-based project aims to solve the **Traveling Salesman Problem (TSP)** using a parallelized approach with multithreading and the Partially Mapped Crossover (PMX) technique. The TSP is a classic optimization problem where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city.
 
 ![TSP](./assets/tsp.jpg)
 
@@ -27,6 +29,15 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 
 ---
 
+## Showcase 🔭
+
+|                                         |                                            |
+|               :---:                     |                 :---:                      |
+| ![Start](./assets/showcase/1.png)       | ![Choice1](./assets/showcase/3.png)        |
+| ![Start](./assets/showcase/2.png)       | ![Choice1](./assets/showcase/4.png)        |
+
+---
+
 ## How it works? 🛠️
 ...
 
@@ -46,6 +57,13 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 
 ---
 
+## Tech Stack ⚡
+
+![Java](https://img.shields.io/badge/Java-F89820?style=for-the-badge)
+![IntelliJ-IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white)
+
+---
+
 ## Installation 📥
 
 > Install TSP Repository with npm *(This will install all files, including this README.md)*
@@ -57,7 +75,7 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 
 ---
 
-## Contribution
+## Contribution 🤝
 Feel free to contribute by forking the repository and creating pull requests. Bug reports and feature requests are also welcome in the Issues section.
 
 ---
