@@ -5,6 +5,7 @@
 - Make sure to ⭐️ the repository to stay tuned! 
 
 ## Overview 🔍
+
 This Java-based project aims to solve the **Traveling Salesman Problem (TSP)** using a parallelized approach with multithreading and the Partially Mapped Crossover (PMX) technique. The TSP is a classic optimization problem where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city.
 
 ![TSP](./assets/tsp.jpg)
@@ -12,19 +13,25 @@ This Java-based project aims to solve the **Traveling Salesman Problem (TSP)** u
 ---
 
 ## Features ✅
+
 ### 1 - Multithreading
+
 The solution utilizes multithreading to concurrently explore different paths in the solution space, improving the overall efficiency of the algorithm. This enables the program to explore multiple potential solutions simultaneously, leading to faster convergence towards an optimal or near-optimal solution.
 
 ### 2 - PMX Crossover
+
 The genetic algorithm incorporates the PMX crossover technique to create diverse offspring. PMX ensures that the child solutions inherit parts of their parents' paths, preserving the integrity of the route while introducing variability. This enhances the algorithm's ability to explore and converge towards optimal solutions.
 
 ### 3 - Mutation Probability
+
 The genetic algorithm incorporates a mutation mechanism with adjustable probability. Mutation introduces diversity in the population by randomly altering some solutions, preventing premature convergence to suboptimal solutions. Users can fine-tune the mutation probability to strike a balance between exploration and exploitation.
 
 ### 4 - Population
+
 The genetic algorithm maintains a population of potential solutions, evolving them over generations. A diverse population helps the algorithm explore a broader solution space. Users can configure the size of the population based on the characteristics of the TSP instance, allowing for flexibility in handling different problem complexities.
 
 ### 5 - Max Time of Execution
+
 To control the execution time of the algorithm, a maximum time parameter is provided. This ensures that the algorithm terminates gracefully even if an optimal solution is not found within a specified timeframe. Users can set this parameter to meet specific time constraints, making the solution adaptable to different scenarios.
 
 ---
@@ -39,7 +46,38 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 ---
 
 ## How it works? 🛠️
-...
+
+### Parameters
+
+To execute the TSP solver you need to fill the following parameters:
+```Java
+> <fileName> (Already gets from files folder, just put the file name) <threadsNumber> <maxExecTime> (in seconds) <populationNumber> <mutationProbability> (from 0.01 to 1)
+```
+
+//Explain the code
+
+### Results
+| File      |     Best distance   |
+| :---:     | :---: |
+| ex5       |    21 |
+| ex6       |    23 |
+| ex7       |   105 |
+| ex8       |   244 |
+| ex9       |  1472 |
+| ex10      |   413 |
+| sp11      |   133 |
+| uk12      |  1733 |
+| ex13      |  3158 |
+| burma14   |  3323 |
+| lau15     |   291 |
+| ulysses16 |  6859 |
+| gr17      |  2085 |
+| ulysses22 |  7013 |
+| gr24      |  1272 |
+| fri26     |   937 |
+| dantzig42 |   699 |
+| att48     | 33523 |
+
 
 ---
 
@@ -76,7 +114,8 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 ---
 
 ## Contribution 🤝
-Feel free to contribute by forking the repository and creating pull requests. Bug reports and feature requests are also welcome in the Issues section.
+
+> Feel free to contribute by forking the repository and creating pull requests. Bug reports and feature requests are also welcome in the Issues section.
 
 ---
 
