@@ -50,11 +50,22 @@ To control the execution time of the algorithm, a maximum time parameter is prov
 ### Parameters
 
 To execute the TSP solver you need to fill the following parameters:
-```Java
-> <fileName> (Already gets from files folder, just put the file name) <threadsNumber> <maxExecTime> (in seconds) <populationNumber> <mutationProbability> (from 0.01 to 1)
-```
+|   Param   | Example |  |
+|   :---:   |  :---:  |  :---:  | 
+|  ```fileName``` | ex13.txt | Already gets from "files" folder, just put the file name |
+|  ```threadsNumber``` | 4 | |
+|  ```maxExecTime```  | 60 | in seconds |
+|  ```populationNumber``` | 100 | |
+|  ```mutationProbability``` | 0.01 | from 0.01 to 1 |
 
-//Explain the code
+Final Result:
+```Java
+>  <fileName> <threadsNumber> <maxExecTime> <populationNumber> <mutationProbability> 
+```
+Example
+```Java
+>  ex13.txt 4 60 100 0.01 
+```
 
 ### Results
 | File      |     Best distance   |
